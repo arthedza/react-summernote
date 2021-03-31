@@ -188,6 +188,7 @@ class ReactSummernote extends Component {
       onKeydown: props.onKeyDown,
       onPaste: props.onPaste,
       onChange: props.onChange,
+      onChangeCodeview: props.onChangeCodeview,
       onImageUpload: this.onImageUpload
     };
   }
@@ -218,6 +219,7 @@ ReactSummernote.propTypes = {
   onKeyDown: PropTypes.func,
   onPaste: PropTypes.func,
   onChange: PropTypes.func,
+  onChangeCodeview: PropTypes.func,
   onImageUpload: PropTypes.func
 };
 
