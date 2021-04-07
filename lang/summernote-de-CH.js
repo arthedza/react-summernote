@@ -23,7 +23,7 @@
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 242:
+/***/ 563:
 /***/ (() => {
 
 (function ($) {
@@ -39,14 +39,14 @@ return /******/ (() => { // webpackBootstrap
         strikethrough: 'Durchgestrichen',
         subscript: 'Tiefgestellt',
         superscript: 'Hochgestellt',
-        size: 'Schriftgröße'
+        size: 'Schriftgrösse'
       },
       image: {
         image: 'Bild',
         insert: 'Bild einfügen',
-        resizeFull: 'Originalgröße',
-        resizeHalf: '1/2 Größe',
-        resizeQuarter: '1/4 Größe',
+        resizeFull: 'Originalgrösse',
+        resizeHalf: '1/2 Grösse',
+        resizeQuarter: '1/4 Grösse',
         floatLeft: 'Linksbündig',
         floatRight: 'Rechtsbündig',
         floatNone: 'Kein Textfluss',
@@ -57,8 +57,8 @@ return /******/ (() => { // webpackBootstrap
         dragImageHere: 'Bild hierher ziehen',
         dropImage: 'Bild oder Text nehmen',
         selectFromFiles: 'Datei auswählen',
-        maximumFileSize: 'Maximale Dateigröße',
-        maximumFileSizeError: 'Maximale Dateigröße überschritten',
+        maximumFileSize: 'Maximale Dateigrösse',
+        maximumFileSizeError: 'Maximale Dateigrösse überschritten',
         url: 'Bild URL',
         remove: 'Bild entfernen',
         original: 'Original'
@@ -118,7 +118,7 @@ return /******/ (() => { // webpackBootstrap
       paragraph: {
         paragraph: 'Absatz',
         outdent: 'Einzug verkleinern',
-        indent: 'Einzug vergrößern',
+        indent: 'Einzug vergrössern',
         left: 'Links ausrichten',
         center: 'Zentriert ausrichten',
         right: 'Rechts ausrichten',
@@ -136,7 +136,7 @@ return /******/ (() => { // webpackBootstrap
       },
       shortcut: {
         shortcuts: 'Tastenkürzel',
-        close: 'Schließen',
+        close: 'Schliessen',
         textFormatting: 'Textformatierung',
         action: 'Aktion',
         paragraphFormatting: 'Absatzformatierung',
@@ -215,7 +215,7 @@ return /******/ (() => { // webpackBootstrap
 /******/ 	// module exports must be returned from runtime so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(242);
+/******/ 	return __webpack_require__(563);
 /******/ })()
 ;
 });
