@@ -3777,9 +3777,8 @@
     "loader-utils" "^1.0.2"
     "schema-utils" "^0.3.0"
 
-"summernote@^0.8.18":
-  "integrity" "sha512-VlwBaNm9vSYMYXvO2f3UCUmY0Gm8jxLcBn+D08aX3pKs4x2vAoyQ4DcDQ6D+PchQiLrf86AGQVfVu56F4aP3ug=="
-  "resolved" "https://registry.npmjs.org/summernote/-/summernote-0.8.18.tgz"
+"summernote@https://github.com/arthedza/summernote.git":
+  "resolved" "git+ssh://git@github.com/arthedza/summernote.git#e7d437668c50c00292ff29c88a9625b3f36d7e27"
   "version" "0.8.18"
 
 "supports-color@^2.0.0":
