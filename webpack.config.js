@@ -46,7 +46,7 @@ module.exports = {
       from: 'node_modules/summernote/dist/lang', to: '../lang'
     }]),
     new CopyWebpackPlugin([{
-      from: 'node_modules/summernote/dist/font', to: '../font'
+      from: 'node_modules/summernote/dist/font', to: 'font'
     }]),
     new ExtractTextPlugin('[name].css')
   ],
