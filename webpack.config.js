@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         test: /\.(css)(\?.+)?$/,
-        use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })
+        use: ExtractTextPlugin.extract({ publicPath: '../', fallback: 'style-loader', use: 'css-loader' })
       },
       {
         test: /\.(otf|eot|svg|ttf|woff|woff2)(\?.+)?$/,
